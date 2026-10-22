@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 20px; font-family: Arial, sans-serif; background: #f0fdf4; color: #173b2a; }
+.card { width: min(100%, 430px); padding: 28px; border-radius: 16px; background: white; box-shadow: 0 10px 30px #173b2a18; }
+h1 { margin-top: 0; }
+label { display: block; margin: 13px 0 6px; }
+input { width: 100%; padding: 11px; border: 1px solid #b8cbbf; border-radius: 8px; font-size: 16px; }
+button { width: 100%; margin-top: 18px; padding: 12px; border: 0; border-radius: 8px; background: #15803d; color: white; font-size: 16px; cursor: pointer; }
+#message { line-height: 1.5; font-weight: bold; }
